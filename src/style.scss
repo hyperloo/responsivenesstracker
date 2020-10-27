@@ -1,0 +1,107 @@
+.flex {
+	display: flex;
+}
+.flex-col {
+	flex-direction: column;
+}
+.inline-block {
+	display: inline-block;
+}
+.inline-flex {
+	display: inline-flex;
+}
+.block {
+	display: block;
+}
+
+.ai-center {
+	align-items: center;
+}
+.ai-start {
+	align-items: flex-start;
+}
+.ai-end {
+	align-items: flex-end;
+}
+
+.jc-center {
+	justify-content: center;
+}
+.jc-start {
+	justify-content: flex-start;
+}
+.jc-end {
+	justify-content: flex-end;
+}
+.jc-between {
+	justify-content: space-between;
+}
+.jc-around {
+	justify-content: space-around;
+}
+.jc-evenly {
+	justify-content: space-evenly;
+}
+
+.flex-center {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container {
+	max-width: 1140px;
+
+	// @media (max-width: $umd) {
+	// 	max-width: 960px;
+	// }
+	// @media (max-width: $sm) {
+	// 	max-width: 576px;
+	// }
+	// @media (max-width: $xs) {
+	// 	max-width: 100%;
+	// }
+}
+.nav-container {
+	max-width: 1140px;
+
+	// @media (max-width: $umd) {
+	// 	max-width: 95%;
+	// }
+	// @media (max-width: $lmd) {
+	// 	max-width: 98.5%;
+	// }
+}
+
+.m-auto {
+	margin: auto;
+}
+.ml-auto {
+	margin-left: auto;
+}
+.mr-auto {
+	margin-right: auto;
+}
+
+.td-none {
+	text-decoration: none;
+}
+
+.noScrollWidthY {
+	overflow-y: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	&::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+	}
+}
+.noScrollWidthX {
+	overflow-x: scroll;
+	scrollbar-width: none;
+	-ms-overflow-style: none;
+	&::-webkit-scrollbar {
+		width: 0px;
+		background: transparent;
+	}
+}

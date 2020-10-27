@@ -1,0 +1,29 @@
+.tooltip {
+	position: absolute;
+	display: none;
+	top: 0;
+	z-index: 100;
+	left: 50%;
+	transform: translate(-50%, -100%);
+	transition: all 0.3s ease;
+
+	> .wrapper {
+		min-width: 120px;
+		display: block;
+		display: block;
+		color: white;
+		background-color: #272c34;
+		border-radius: 3px;
+		padding: 0.5rem 1.25rem;
+	}
+	&::after {
+		position: absolute;
+		bottom: 0;
+		left: 50%;
+		content: "";
+		width: 8px;
+		height: 8px;
+		transform: translate(-50%, 50%) rotateZ(45deg);
+		background-color: #272c34;
+	}
+}

@@ -1,0 +1,110 @@
+.searchbar {
+	width: 60%;
+	max-width: 880px;
+	padding: 3px 16px 3px 16px;
+	border: 1px #e8e8e8 solid;
+	background-color: rgba(238, 238, 238, 0.5);
+	border-radius: 3px;
+	margin: 1rem auto 0 auto;
+	box-shadow: rgba(0, 0, 0, 0.2) 0px 2px 1px -1px,
+		rgba(0, 0, 0, 0.14) 0px 1px 1px 0px, rgba(0, 0, 0, 0.12) 0px 1px 3px 0px;
+
+	@media (max-width: 992px) {
+		width: 75%;
+	}
+	@media (max-width: 768px) {
+		width: 85%;
+	}
+
+	> .input {
+		color: rgba(0, 0, 0, 0.87);
+		background-color: rgb(255, 255, 255);
+		border-radius: 2px;
+		height: 48px;
+		border: 1px #e8e8e8 solid;
+		padding: 0.25rem 0 0.25rem 1.25rem;
+		margin: 0px auto;
+		overflow: hidden;
+		transition: all 0.3s ease;
+
+		> input {
+			height: 100%;
+			flex: 1;
+			border: none;
+			outline: none;
+			color: rgba(0, 0, 0, 0.87);
+			font-size: 1rem;
+		}
+
+		> .search {
+			cursor: pointer;
+			transition: all 0.1s ease;
+			height: 48px;
+			width: 48px;
+
+			> svg {
+				margin: auto;
+			}
+
+			&:hover {
+				transform: scale(1.05);
+				background-color: #f5f5f5;
+			}
+		}
+
+		> .inactive {
+			cursor: not-allowed;
+		}
+
+		&:active,
+		&:hover,
+		&:focus-within {
+			box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 6px,
+				rgba(0, 0, 0, 0.12) 0px 1px 4px;
+
+			border-color: #1976d2;
+		}
+	}
+	> .invalid {
+		border-color: #f44336 !important;
+	}
+
+	> .copy {
+		font-size: 0.75rem;
+		margin-top: 4px;
+		color: #505654;
+
+		> span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			transition: all 0.3s ease;
+
+			&:hover {
+				transform: scale(1.1);
+				> .tooltip {
+					display: block;
+				}
+			}
+		}
+	}
+	> .copyright {
+		font-size: 0.75rem;
+		margin-bottom: 4px;
+		color: #505654;
+
+		> span {
+			cursor: pointer;
+			position: relative;
+			display: inline-block;
+			transition: all 0.3s ease;
+
+			&:hover {
+				transform: scale(1.1);
+				> .tooltip {
+					display: block;
+				}
+			}
+		}
+	}
+}
