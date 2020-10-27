@@ -1,68 +1,59 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# **Responsiveness Tracker 💻 🖥️ 📱 👈**
 
-## Available Scripts
+<br/>
 
-In the project directory, you can run:
+<p align="center">
+<img src="https://img.shields.io/badge/frontend-ReactJS-blue?style=flat&logo=React">
+<img src="https://img.shields.io/badge/Other%20Technologies-Context%20API-yellowgreen">
 
-### `yarn start`
+<br/>
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+This is the [Responsiveness Tracker](https://hyperloo.github.io/responsivenesstracker) Website built using Reactjs and context API. This enables you to check the responsiveness of your website on different `viewport sizes`.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+An App to make `Development and Designing` less hectic and easier to maintain.
+<br />
 
-### `yarn test`
+## **ViewPort List Section ⚙️**
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+<img src="./assets/list.webp">
 
-### `yarn build`
+This is the main Select Menu of the viewports categorized into different categories:- <br/>
+a) Mobile <br/>
+b) Tablet <br/>
+b) Laptops <br/>
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Note: Can toggle the viewport list using large green "+" button on top.
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+- You can add given viewport to the list by click left "+" button and delete the selected viewport using "-" before each viewport.
+- You can add custom viewport to any of the categories by clicking circular "+" button at the bottom center of each categories and add info of the view port and then click green "✓" button to add to the viewport list or red "x" to discard changes.
+- You will get a red "x" delete option on the right of the custom viewport to remove them from the list.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  <br /><br />
 
-### `yarn eject`
+## **View Section ✏️📈**
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+<img src="./assets/main.jpg">
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+This is the main page of the Web App: Here you can see:-
+<br>
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Input to enter the website link.
+  <br/> \* You can copy below mentioned link for demo using `copy` button.
+- The below list is the selected viewport list which is scrollable on large number of selected viewport.
+- You can reset the link using "✂️" button on center top of the list.
+  <br /><br />
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+## **Main Section ✏️📈**
 
-## Learn More
+<img src="./assets/main.webp">
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- Here you see the rendered webpage.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- For _responsive_ tab (Mandatory in selected section), you can change dimension using the dimension inputs.
+- For rest selected viewport, you can rotate view from portrait to landscape using `Phone rotate button`.
+- You can mandate Page reload on viewport change using "🔄" button to tackle the `dynamic stylesheet imports`.
+- You can delete the viewport form given selected list by clicking red "X" button.
 
-### Code Splitting
+> You will get the previous changes as it was on reload of the webpage.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
-
-### Analyzing the Bundle Size
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
-
-### Making a Progressive Web App
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
-
-### Advanced Configuration
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
-
-### Deployment
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
-
-### `yarn build` fails to minify
-
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+**_Hope this webApp will prove to be really helpful in web designing and development._**
