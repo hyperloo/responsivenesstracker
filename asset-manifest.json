@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/responsivenesstracker/static/css/main.33c0c8f0.chunk.css",
-    "main.js": "/responsivenesstracker/static/js/main.e9c4b449.chunk.js",
-    "main.js.map": "/responsivenesstracker/static/js/main.e9c4b449.chunk.js.map",
+    "main.css": "/responsivenesstracker/static/css/main.7c441ee4.chunk.css",
+    "main.js": "/responsivenesstracker/static/js/main.9f9f157a.chunk.js",
+    "main.js.map": "/responsivenesstracker/static/js/main.9f9f157a.chunk.js.map",
     "runtime-main.js": "/responsivenesstracker/static/js/runtime-main.28d9026c.js",
     "runtime-main.js.map": "/responsivenesstracker/static/js/runtime-main.28d9026c.js.map",
-    "static/js/2.7f57e4c9.chunk.js": "/responsivenesstracker/static/js/2.7f57e4c9.chunk.js",
-    "static/js/2.7f57e4c9.chunk.js.map": "/responsivenesstracker/static/js/2.7f57e4c9.chunk.js.map",
+    "static/js/2.e1396e35.chunk.js": "/responsivenesstracker/static/js/2.e1396e35.chunk.js",
+    "static/js/2.e1396e35.chunk.js.map": "/responsivenesstracker/static/js/2.e1396e35.chunk.js.map",
     "index.html": "/responsivenesstracker/index.html",
-    "precache-manifest.c75db08720c5990b9dc62a7015fc02c5.js": "/responsivenesstracker/precache-manifest.c75db08720c5990b9dc62a7015fc02c5.js",
+    "precache-manifest.a58c4965ddc52b58d313569cdcfa4a2c.js": "/responsivenesstracker/precache-manifest.a58c4965ddc52b58d313569cdcfa4a2c.js",
     "service-worker.js": "/responsivenesstracker/service-worker.js",
-    "static/css/main.33c0c8f0.chunk.css.map": "/responsivenesstracker/static/css/main.33c0c8f0.chunk.css.map",
-    "static/js/2.7f57e4c9.chunk.js.LICENSE.txt": "/responsivenesstracker/static/js/2.7f57e4c9.chunk.js.LICENSE.txt",
+    "static/css/main.7c441ee4.chunk.css.map": "/responsivenesstracker/static/css/main.7c441ee4.chunk.css.map",
+    "static/js/2.e1396e35.chunk.js.LICENSE.txt": "/responsivenesstracker/static/js/2.e1396e35.chunk.js.LICENSE.txt",
     "static/media/Spinner.gif": "/responsivenesstracker/static/media/Spinner.70e7f50d.gif",
     "static/media/rotate.svg": "/responsivenesstracker/static/media/rotate.3b8775fa.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.28d9026c.js",
-    "static/js/2.7f57e4c9.chunk.js",
-    "static/css/main.33c0c8f0.chunk.css",
-    "static/js/main.e9c4b449.chunk.js"
+    "static/js/2.e1396e35.chunk.js",
+    "static/css/main.7c441ee4.chunk.css",
+    "static/js/main.9f9f157a.chunk.js"
   ]
 }
