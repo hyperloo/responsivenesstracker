@@ -1,182 +1,184 @@
 #parentScreen {
-	z-index: 2000;
+    z-index: 2000;
 
-	> .title {
-		position: relative;
-		margin-top: 1rem;
-		> .dimensions {
-			font-weight: lighter;
-			margin-right: 1rem;
+    > .title {
+        position: relative;
+        margin-top: 1rem;
+        > .dimensions {
+            font-weight: lighter;
+            margin-right: 1rem;
 
-			> span {
-				display: inline-block;
-				font-size: 0.8rem;
-				border: 1px solid rgba(0, 0, 0, 0.125);
-				padding: 0.25rem;
-				max-width: 5rem;
+            > span {
+                display: inline-block;
+                font-size: 0.8rem;
+                border: 1px solid rgba(0, 0, 0, 0.125);
+                padding: 0.25rem;
+                max-width: 5rem;
 
-				input {
-					outline: none;
-					border: none;
-					font-weight: lighter;
-					width: 100%;
-				}
-				// input::-webkit-outer-spin-button,
-				// input::-webkit-inner-spin-button {
-				// 	-webkit-appearance: none;
-				// 	margin: 0;
-				// }
+                input {
+                    outline: none;
+                    border: none;
+                    font-weight: lighter;
+                    width: 100%;
+                }
+                // input::-webkit-outer-spin-button,
+                // input::-webkit-inner-spin-button {
+                // 	-webkit-appearance: none;
+                // 	margin: 0;
+                // }
 
-				/* Firefox */
-				// input[type="number"] {
-				// 	-moz-appearance: textfield;
-				// }
-			}
-		}
+                /* Firefox */
+                // input[type="number"] {
+                // 	-moz-appearance: textfield;
+                // }
+            }
+        }
 
-		> .reload {
-			width: 1.5rem;
-			height: 1.5rem;
-			margin-right: 1rem;
-			cursor: pointer;
-			position: relative;
-			transition: all 0.3s ease;
-			border-radius: 3px;
-			border: 1px solid rgba(0, 0, 0, 0.1);
+        > .reload {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 1rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
 
-			&:hover {
-				transform: scale(1.05);
+            &:hover {
+                transform: scale(1.05);
 
-				> .tooltip {
-					display: block;
-					font-size: 0.65rem;
+                > .tooltip {
+                    display: block;
+                    font-size: 0.65rem;
 
-					> .wrapper {
-						padding: 0.25rem 1.1rem;
-					}
-				}
-			}
-		}
-		> .rotate {
-			width: 1.5rem;
-			height: 1.5rem;
-			margin-right: 1rem;
-			cursor: pointer;
-			position: relative;
-			transition: all 0.3s ease;
-			border-radius: 3px;
-			border: 1px solid rgba(0, 0, 0, 0.1);
+                    > .wrapper {
+                        padding: 0.25rem 1.1rem;
+                    }
+                }
+            }
+        }
+        > .rotate {
+            width: 1.5rem;
+            height: 1.5rem;
+            margin-right: 1rem;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s ease;
+            border-radius: 3px;
+            border: 1px solid rgba(0, 0, 0, 0.1);
 
-			> img {
-				width: 100%;
-				height: 100%;
-			}
+            > img {
+                width: 100%;
+                height: 100%;
+            }
 
-			&:hover {
-				transform: scale(1.05);
+            &:hover {
+                transform: scale(1.05);
 
-				> .tooltip {
-					display: block;
-					font-size: 0.7rem;
+                > .tooltip {
+                    display: block;
+                    font-size: 0.7rem;
 
-					> .wrapper {
-						padding: 0.25rem 1.1rem;
-					}
-				}
-			}
-		}
+                    > .wrapper {
+                        padding: 0.25rem 1.1rem;
+                    }
+                }
+            }
+        }
 
-		> .cross {
-			height: 1.5rem;
-			width: 1.5rem;
-			position: relative;
-			cursor: pointer;
-			background-color: #e57373;
-			border-radius: 4px;
-			color: white;
-			transition: all 0.2s ease;
+        > .cross {
+            height: 1.5rem;
+            width: 1.5rem;
+            position: relative;
+            cursor: pointer;
+            background-color: #e57373;
+            border-radius: 4px;
+            color: white;
+            transition: all 0.2s ease;
 
-			&:hover {
-				background-color: #df6464;
-				transform: scale(1.05);
+            &:hover {
+                background-color: #df6464;
+                transform: scale(1.05);
 
-				> .tooltip {
-					display: block;
-					font-size: 0.7rem;
+                > .tooltip {
+                    display: block;
+                    font-size: 0.7rem;
 
-					> .wrapper {
-						padding: 0.25rem 1.1rem;
-					}
-				}
-			}
-		}
-	}
+                    > .wrapper {
+                        padding: 0.25rem 1.1rem;
+                    }
+                }
+            }
+        }
+    }
 
-	.screen {
-		overflow: hidden;
-		position: relative;
-		margin: auto;
-		margin-top: 0.5rem;
-		border: 1px solid rgba(0, 0, 0, 0.15);
-		box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
-			0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
-		transition: all 0.3s ease;
+    .screen {
+        overflow: hidden;
+        position: relative;
+        margin: auto;
+        margin-top: 0.5rem;
+        border: 1px solid rgba(0, 0, 0, 0.15);
+        box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.2),
+            0px 1px 1px 0px rgba(0, 0, 0, 0.14),
+            0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+        transition: all 0.3s ease;
 
-		> iframe {
-			transition: all 0.3s ease;
-			border: none;
-			outline: none;
-		}
+        > iframe {
+            transition: all 0.3s ease;
+            border: none;
+            outline: none;
+        }
 
-		> .msg {
-			width: 100%;
-			height: 100%;
-			font-size: 2rem;
-			font-weight: lighter;
-			color: gray;
+        > .msg {
+            width: 100%;
+            height: 100%;
+            font-size: 2rem;
+            font-weight: lighter;
+            color: gray;
 
-			> span {
-				animation: rotate 1s ease infinite;
-			}
-		}
-	}
+            > span {
+                animation: rotate 1s ease infinite;
+            }
+        }
+    }
 }
 
 .responsive {
-	> #right,
-	> #down {
-		position: absolute;
-		background-color: lightgray;
-		display: flex;
-		align-items: center;
-		justify-content: center;
-	}
-	> #right {
-		content: ">";
-		right: 0;
-		top: 0;
-		height: 100%;
-		width: 1rem;
-		border: 1px solid gray;
-		cursor: grab;
-	}
-	> #down {
-		content: "^";
-		left: 0;
-		bottom: 0;
-		height: 1rem;
-		width: 100%;
-		border: 1px solid gray;
-		transform: rotateZ(180deg);
-		cursor: grab;
-	}
+    resize: both;
+    > #right,
+    > #down {
+        position: absolute;
+        background-color: lightgray;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    > #right {
+        content: ">";
+        right: 0;
+        top: 0;
+        height: 100%;
+        width: 1rem;
+        border: 1px solid gray;
+        cursor: grab;
+    }
+    > #down {
+        content: "^";
+        left: 0;
+        bottom: 0;
+        height: 1rem;
+        width: 100%;
+        border: 1px solid gray;
+        transform: rotateZ(180deg);
+        cursor: grab;
+    }
 }
 
 @keyframes rotate {
-	from {
-		transform: rotateY(0deg);
-	}
-	from {
-		transform: rotateY(360deg);
-	}
+    from {
+        transform: rotateY(0deg);
+    }
+    from {
+        transform: rotateY(360deg);
+    }
 }
